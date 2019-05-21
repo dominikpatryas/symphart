@@ -1,0 +1,10 @@
+{% extends 'base.html.twig' %}
+
+{% block title %} Symphart articles{% endblock %}
+
+{% block body %}
+<h1>{{article.title}}</h1>
+<p>{{article.body}}</p>
+<hr>
+<a href="/symphart/public">Go back</a>
+{% endblock %}
